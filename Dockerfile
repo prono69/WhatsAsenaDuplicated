@@ -1,8 +1,8 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/phaticusthiccy/WhatsAsenaDuplicated /root/WhatsAsenaDuplicated
+RUN git clone https://github.com/prono69/WhatsAsenaDuplicated /root/WhatsAsenaDuplicated
 WORKDIR /root/WhatsAsenaDuplicated/
-ENV TZ=Europe/Istanbul
+ENV TZ=Asia/Kolkata
 RUN apk add --update nodejs npm
 RUN apk --no-cache --virtual build-dependencies add \
     python \
