@@ -334,6 +334,17 @@
         "ffmpeg": {
             "FF_DESC": "Applies the desired ffmpeg filter to the video.\n⌨️ Example: .ffmpeg fade=in:0:30",
             "FF_PROC": "Applying Effect.."
+        },
+        "spammer": {
+            "SPAM_DESC": "It spam until you stop it.\n⌨️ Example: .spam test",
+            "NEED_WORD": "*Need Some Words!*",
+            "STOP_SPAMDESC": "Stops spam command.",
+            "STOP_SPAM": "✅ *Spam successfully stopped! Please wait a moment.*"
+        },
+        "carbon": {
+            "CARBON_DESC": "Uses carbon.sh for Text-to-Image",
+            "CARBON_NEEDWORD": "*Not enough arguments to translate Text-to-Image!*\nExample: ```.carbon test```\nExample: ```.carbon making%250Atest```",
+            "CARBON_WARN": "Please only type in english character!"
         }
     }
 }
