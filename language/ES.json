@@ -340,6 +340,21 @@
             "NEED_WORD": "*Tienes que escribir palabras!*",
             "STOP_SPAMDESC": "Detiene el comando de spam.",
             "STOP_SPAM": "✅ *El spam se detuvo correctamente! Por favor, espere un momento.*"
+        },
+        "carbon": {
+            "CARBON_DESC": "Convierte texto en imagen con carbon.sh.",
+            "CARBON_NEEDWORD": "*No hay suficientes argumentos para convertirlo en una foto.!*\nEjemplo: ```.carbon test```\nEjemplo: ```.carbon Making#Test```",
+            "CARBON_WARN": "Escriba solo en los idiomas TR y EN!"
+        },
+        "scam": {
+            "SCAM_DESC": "Crea 5 minutos de acciones falsas.",
+            "SCAM_NOTFOUND": "*¡Debe ingresar una acción falsa*\nEtipos Existentes: ```typing & recording & online & stop```",
+            "SCAM_NULL": "```Acción incorrecta ingresada! Utilice los tipos existentes.```"
+        },
+        "deepai": {
+            "DEEPAI_DESC": "Ejecuta las herramientas de inteligencia artificial más poderosas utilizando redes neuronales artificiales.",
+            "TEXT": "*¡Debes ingresar texto! Aunque soy una poderosa inteligencia artificial, no puedo leer tus pensamientos!*",
+            "URL": "*¡Debes ingresar la URL de la imagen*\n*Ejemplo:* https://i.hizliresim.com/nrg50b.jpg"
         }
     }
 }

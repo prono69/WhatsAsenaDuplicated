@@ -338,6 +338,21 @@
             "NEED_WORD": "*Bir söz daxil etməlisiniz*",
             "STOP_SPAMDESC": "Spam əmrini dayandırır.",
             "STOP_SPAM": "✅ *Spam uğurla dayandırıldı! Xahiş edirəm bir az gözləyin.*"
+        },
+        "carbon": {
+            "CARBON_DESC": "Mətni carbon.sh ilə şəkilə çevirir.",
+            "CARBON_NEEDWORD": "*Fotoya çevirmək üçün kifayət qədər arqument yoxdur!*\nNümunə: ```.carbon deneme```\nNümunə: ```.carbon deneme#Yapıyor```",
+            "CARBON_WARN": "Xahiş edirəm yalnız en və en dillərində yazın!"
+        },
+        "scam": {
+            "SCAM_DESC": "5 dəqiqəlik saxta hərəkətlər yaradır.",
+            "SCAM_NOTFOUND": "*Saxta Fəaliyyət Yazmalısınız!*\nMövcud Növləri: ```typing & recording & online & stop```",
+            "SCAM_NULL": "```Səhv Əməliyyat Girdi! Zəhmət olmasa mövcud növlərdən istifadə edin.```"
+        },
+        "deepai": {
+            "DEEPAI_DESC": "Süni sinir şəbəkələrindən istifadə edərək ən güclü süni intellekt alətlərini işlədir.",
+            "TEXT": "*Mətn daxil etməlisiniz! Güclü bir süni zəka olsam da, düşüncələrinizi oxuya bilmirəm!*",
+            "URL": "*Şəklin URL-sini daxil etməlisiniz!*\n*Nümunə:* https://i.hizliresim.com/nrg50b.jpg"
         }
     }
 }

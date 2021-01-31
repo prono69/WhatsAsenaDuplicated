@@ -38,6 +38,10 @@
     <img src="https://img.shields.io/static/v1?label=Author&message=Thiccy&color=purple&style=plastic">
 
   </a>
+  <a href="https://t.me/asenaremaster">
+    <img src="https://img.shields.io/badge/Telegram-Asena%20Remaster-purple&style=plastic">
+
+  </a>
 </p>
 
 ```
@@ -76,7 +80,7 @@ is not responsible for the usage purpose and method of the users.
         Reserved |
         <a href="https://t.me/WHATSASENA">Telegram Channel</a> |
         <a href="https://t.me/AsenaSupport">Telegram Group</a> |
-        <a href="https://t.me/unofficialasena">New Support Group</a> |
+        <a href="https://t.me/asenaremaster">New Support Group</a> |
         <a href="https://t.me/unofficialplugin">New Plugin Channel</a> |
     <br>
 </p>
@@ -107,12 +111,13 @@ is not responsible for the usage purpose and method of the users.
 
 ### The Hard Method
 ```js
-git clone https://github.com/phaticusthiccy/WhatsAsenaDuplicated.git
-cd WhatsAsenaDuplicated
-npm i
-# Config.env oluşturun ve düzenleyin. #
-# Config.env create and edit. #
-node bot.js
+$ git clone https://github.com/phaticusthiccy/WhatsAsenaDuplicated.git
+$ cd WhatsAsenaDuplicated
+$ npm i
+$ nano Config.env
+// Config.env oluşturun ve düzenleyin.
+// Config.env create and edit.
+$ node bot.js
 ```
 ### ⚒️ Setup Wiki 
 [![Setup - Kurulum](https://img.icons8.com/clouds/300/000000/settings.png)](https://github.com/phaticusthiccy/WhatsAsenaDuplicated/wiki)
@@ -133,34 +138,38 @@ If you are concerned about security, you can install it on your own computer. If
 
 ## WhatsAsena Features
 
-| All Features |Available|
-| ------------- | ------------- |
-| AFK|✅|
-| Sticker Maker|✅|
-| Plugin Support|✅|
-| Ban & Unban User|✅|
-| Spammer|✅|
-| Add & Kick User|✅|
-| Promote & Demote User|✅|
-| Mute & Unmute Chat|✅|
-| Group Link Generator|✅|
-| AI Scanner|✅|
-| Pre-Trained Effects|✅|
-| FFMPEG Support|✅|
-| Filter Support|✅|
-| Greetings Support|✅|
-| Heroku Plugin|✅|
-| Location Plugin|✅|
-| Lydia|✅|
-| Meme Maker|✅|
-| Nekobin Plugin|✅|
-| OCR Plugin|✅|
-| Remove BG Plugin|✅|
-| Scrapers|✅|
-| Tagall|✅|
-| Speedtest|✅|
-| Unvoice|✅|
-| And Many Features|✅|
+| All Features 📢|Available ☑️|Version 🔎|
+| ------------- | ------------ | ---------- |
+| Admin Commands|✅|1.0|
+| AFK|✅|1.2|
+| AI Scanner|✅|1.1|
+| Add & Kick User|✅|1.0|
+| Ban & Unban User|✅|1.0|
+| Carbon.sh Plugin|✅|1.4|
+| Depp AI APIs|✅|1.0|
+| FFMPEG Support|✅|1.6|
+| Filter Support|✅|1.2|
+| Greetings Support|✅|1.2|
+| Group Link Generator|✅|1.0|
+| Heroku Plugin|✅|1.5|
+| Jid Scraper|✅|1.0|
+| Location Plugin|✅|1.0|
+| Lydia|✅|1.2|
+| Meme Maker|✅|1.0|
+| Mute & Unmute Chat|✅|1.3|
+| Nekobin Plugin|✅|1.0|
+| OCR Plugin|✅|1.2|
+| Plugin Support|✅|1.0|
+| Pre-Trained Effects|✅|3.2|
+| Promote & Demote User|✅|1.1|
+| Remove BG Plugin|✅|1.0|
+| Scam Actions|✅|1.3|
+| Scrapers|✅|1.5|
+| Spammer|✅|1.4|
+| Speedtest|🛠️|1.6|
+| Sticker Maker|✅|1.0|
+| Tagall|✅|1.0|
+| Unvoice|✅|1.3|
 
 ### ⚠️ Warning! 
 ```
@@ -174,14 +183,14 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 
 [![Yusuf Usta](https://github.com/yusufusta.png?size=100)](https://quiec.tech) | [![Phaticusthiccy](https://github.com/phaticusthiccy.png?size=100)](https://github.com/phaticusthiccy) | [![Alperen Ç](https://github.com/xacnio.png?size=100)](https://github.com/xacnio) | [![Justin Thoms](https://github.com/justinthoms.png?size=100)](https://github.com/justinthoms) | [![CW4RR10R](https://github.com/CW4RR10R.png?size=100)](https://github.com/CW4RR10R)
 ----|----|----|----|----
-[Yusuf Usta](https://t.me/fusuf) | [Phaticusthiccy](https://github.com/phaticusthiccy) | [Alperen Ç](https://t.me/xacnio) | [justinthoms](https://t.me/Mr_justinthomas) | [CW4RR10R](https://github.com/CW4RR10R)
-Author, Base, Bug Fixes, Modules | Base, Bug Fixes, Modules | Bug Fixes, Modules, Idea | Modules, Idea | Modules
+[Yusuf Usta](https://t.me/fusufs) | [Phaticusthiccy](https://github.com/phaticusthiccy) | [Alperen Ç](https://t.me/xacnio) | [justinthoms](https://t.me/Mr_justinthomas) | [CW4RR10R](https://github.com/CW4RR10R)
+Author, Base, Bug Fixes, Modules | Author, Base, Bug Fixes, Modules | Bug Fixes, Modules, Idea | Modules, Idea | Modules
 
 ## Thanks To
 - [@adiwajshing](https://github.com/adiwajshing) for coded [Baileys](https://github.com/adiwajshing/Baileys) 
 - [@itacirgabral](https://github.com/itacirgabral) for helps
 - `Ikarus#7808 (Discord)` for helps
-- [Unique_hunter](https://t.me/Unique_hunter) for helps and ideas
+- [@Unique_hunter](https://t.me/Unique_hunter) for helps and ideas
 - Translators
 
 ## License

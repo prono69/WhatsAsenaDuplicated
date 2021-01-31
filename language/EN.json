@@ -343,8 +343,18 @@
         },
         "carbon": {
             "CARBON_DESC": "Uses carbon.sh for Text-to-Image",
-            "CARBON_NEEDWORD": "*Not enough arguments to translate Text-to-Image!*\nExample: ```.carbon test```\nExample: ```.carbon making%250Atest```",
-            "CARBON_WARN": "Please only type in english character!"
+            "CARBON_NEEDWORD": "*Not enough arguments to translate Text-to-Image!*\nExample: ```.carbon test```\nExample: ```.carbon making#test```",
+            "CARBON_WARN": "Please only type in en and tr character!"
+        },
+        "scam": {
+            "SCAM_DESC": "Creates 5 minutes of fake actions.",
+            "SCAM_NOTFOUND": "*You Must Enter Fake Action!*\nExisting Types: ```typing & recording & online & stop```",
+            "SCAM_NULL": "```Wrong Action Entered! Please use existing types.```"
+        },
+        "deepai": {
+            "DEEPAI_DESC": "Runs the most powerful artificial intelligence tools using artificial neural networks.",
+            "TEXT": "*You must enter text! Although I am a powerful artificial intelligence, I cannot read your thoughts!*",
+            "URL": "*You must enter the image URL!*\n*Example:* https://i.hizliresim.com/nrg50b.jpg"
         }
     }
 }
