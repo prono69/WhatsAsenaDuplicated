@@ -200,7 +200,8 @@
             "SYSD_DESC": "Sistem özelliklerini söyler."
         },
         "tagall": {
-            "TAGALL_DESC": "Gruptaki herkesi etiketler."
+            "TAGALL_DESC": "Gruptaki herkesi etiketler.",
+            "ADMİN": "*Bu Grupta Admin Değilim!*"
         },
         "updater": {
             "UPDATER_DESC": "Güncelleme denetler.",
@@ -354,6 +355,17 @@
             "DEEPAI_DESC": "Yapay sinir ağlarını kullanarak en güçlü yapay zeka araçlarını çalıştırır.",
             "TEXT": "*Metin girmelisin! Her ne kadar güçlü bir yapay zeka olsam da düşüncelerini okuyamam!*",
             "URL": "*Resim URL'si girmelisin!*\n*Örnek:* https://i.hizliresim.com/nrg50b.jpg"
+        },
+        "ttp": {
+            "TTP_DESC": "Yazıyı sade resme dönüştürür.",
+            "NEED_WORD": "*Kelime Girmelisin!*"
+        },
+        "wallpaper": {
+            "WP": "Birbirinden farklı, yüksek çözünürlüklü duvar kağıdı gönderir."
+        },
+        "webss": {
+            "SS_DESC": "Verilen linkteki sayfadan ekran görüntüsü alır.",
+            "LİNK": "Herhangi bir link girmelisin!"
         }
     }
 }

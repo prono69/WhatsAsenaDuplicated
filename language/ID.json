@@ -2,7 +2,7 @@
     "__ASENAJSON__": true,
     "LANGUAGE": "Indonesia",
     "LANGCODE": "in",
-    "AUTHOR": "@todayisshitday(telegram) / Avi Patil",
+    "AUTHOR": "Phaticusthiccy / @todayisshitday(telegram) / Avi Patil",
     "STRINGS": {
         "_asena": {
             "COMMAND": "Perintah",
@@ -13,17 +13,17 @@
         },
         "_plugin": {
             "INSTALL_DESC": "Penginstalan plugin.",
-            "NEED_URL": "Harap masukkan URL! Contoh:",
+            "NEED_URL": "Harap masukkan URL Plugin! Contoh:",
             "INVALID_URL": "```Harap masukkan url yang valid!```",
             "INVALID_PLUGIN": "*❌ Plugin Anda tidak valid!*\n*Kesalahan:*",
             "INSTALLED": "*✅ Plugin berhasil diinstal!*",
             "PLUGIN_DESC": "Menunjukkan plugin yang telah Anda instal.",
             "INSTALLED_FROM_REMOTE": "*Plugin yang Anda instal secara eksternal:*\n",
-            "NO_PLUGIN": "*Anda belum memasang plugin eksternal!*",
+            "NO_PLUGIN": "*Anda belum menginstal plugin eksternal!*",
             "REMOVE_DESC": "Menghapus plugin.",
             "NEED_PLUGIN": "```Harap masukkan sebuah Plugin! Contoh: .plugin __test```",
             "NOT_FOUND_PLUGIN": "```Mungkin Anda telah menginstal plugin seperti itu, atau mungkin belum. Tapi itu pasti tidak sekarang.```",
-            "DELETED": "*✅ Modul berhasil dihapus! Anda harus memulai ulang agar perubahan diterapkan.*"
+            "DELETED": "*✅ Plugin berhasil dihapus! Anda harus memulai ulang agar perubahan diterapkan.*"
         },
         "admin": {
             "BAN_DESC": "Ban seseorang dalam grup. Balas pesan atau tandai seseorang untuk menggunakan perintah.",
@@ -188,8 +188,8 @@
             "NOT_FOUND": "*Saya tidak dapat menemukan apa pun :(*",
             "SEARCHING": "*🔎 Mencari ...*",
             "WIKI_DESC": "Mencari di Wikipedia.",
-            "IMG_DESC": "Mengambil foto Google.",
-            "IMG": "Mengupload foto```{}``` number ```{} `..."
+            "IMG_DESC": "Mengambil foto dari Google.",
+            "IMG": "Mengunggah ```{}``` foto ```{}```..."
         },
         "sticker": {
             "STICKER_DESC": "Ini mengubah foto atau video yang Anda balas dengan mengetik .sticker menjadi stiker.",
@@ -201,7 +201,8 @@
             "SYSD_DESC": "Menunjukkan properti sistem."
         },
         "tagall": {
-            "TAGALL_DESC": "Menandai semua orang di grup."
+            "TAGALL_DESC": "Menandai semua orang di grup.",
+            "ADMİN": "*Saya bukan admin di grup ini!*"
         },
         "updater": {
             "UPDATER_DESC": "Periksa pembaruan.",
@@ -355,6 +356,17 @@
             "DEEPAI_DESC": "Menjalankan alat kecerdasan buatan paling kuat menggunakan jaringan saraf tiruan.",
             "TEXT": "*Anda harus memasukkan teks! Meskipun saya adalah kecerdasan buatan yang kuat, saya tidak dapat membaca pikiran Anda!*",
             "URL": "*Anda harus memasukkan URL gambar!*\n*Contoh:* https://i.hizliresim.com/nrg50b.jpg"
+        },
+        "ttp": {
+            "TTP_DESC": "Mengonversi teks menjadi lukisan biasa.",
+            "NEED_WORD": "*Anda harus memasukkan kata-kata!*"
+        },
+        "wallpaper": {
+            "WP": "Mengirimkan wallpaper resolusi tinggi yang berbeda."
+        },
+        "webss": {
+            "SS_DESC": "Mengambil screenshot dari halaman di link yang diberikan.",
+            "LİNK": "Anda harus memasukkan tautan apa pun!"
         }
     }
 }
