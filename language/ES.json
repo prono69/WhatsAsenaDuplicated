@@ -120,25 +120,25 @@
             "NEED_REPLY": "```*¡Responda al mensaje de un usuario!*```",
             "COFFEEHOUSE": "```¡Ha definido la clave API de Coffehouse!```",
             "ENABLED_LYDIA": "```¡Lydia ha sido activada para este usuario!```",
-            "RMLYDIA_DESC": "Lydia desactiva su bot para el usuario.",
+            "RMLYDIA_DESC": "Lydia ha desactivado el bot.",
             "ALREADY_EMPTY": "```¡Tu lista de usuarios ya está vacía!```",
             "NOT_ADDED": "```¡Aún no has agregado a este usuario!```",
             "DISABLED": "```Lydia ha sido deshabilitada para este usuario```"
         },
         "memes": {
-            "MEMES_DESC": "Photo memes you replied to.",
-            "NEED_REPLY": "*Reply to a photo!*",
-            "DOWNLOADING": "```Downloading media & making meme...```"
+            "MEMES_DESC": "Obtén un meme para la foto que respondas",
+            "NEED_REPLY": "*¡Responda a una foto!*",
+            "DOWNLOADING": "```Descargando imagen y conviritiendo en meme```"
         },
         "ocr": {
-            "OCR_DESC": "Reads the text on the photo you have replied.",
-            "NEED_REPLY": "*Reply to a photo!*",
-            "DOWNLOADING": "```Media is downloading & reading...```",
-            "ERROR": "```I couldn't read this :/```\n*Error:*```{}```",
-            "RESULT": "*Language:* ```{}```\n*Here is what I read:* ```{}```"
+            "OCR_DESC": "Lee el texto de la foto que has respondido.",
+            "NEED_REPLY": "*¡Responda a una foto!*",
+            "DOWNLOADING": "```Analizando la imagen y escribiendo el texto...```",
+            "ERROR": "```No pude leer esto:/```\n*Error:*```{}```",
+            "RESULT": "*Lenguaje:* ```{}```\n*Esto es lo que leí:* ```{}```"
         },
         "profile": {
-            "KICKME_DESC": "Te quita del grupo que escribiste.",
+            "KICKME_DESC": "Este comando te expulsa del grupo que escribiste.",
             "KICKME": "```¡Adiós! Me voy 🤠```",
             "PP_DESC": "Tu foto de perfil es la foto a la que respondes.",
             "NEED_PHOTO": "*¡Dame una foto!*",
@@ -150,15 +150,15 @@
             "BLOCKED_UPPER": "¡Bloqueado!",
             "UNBLOCKED_UPPER": "Desbloqueado.",
             "NEED_USER": "Dame un usuario!",
-            "JID_DESC": "Giving user's JID.",
-            "JID": "```JID address of``` @{} ```: {}```",
-            "JID_CHAT": "```Chat's JID address: {}```"
+            "JID_DESC": "Dando el JID del usuario.",
+            "JID": "```Dirección JID de``` @{} ```: {}```",
+            "JID_CHAT": "```Dirección JID del chat: {}```"
         },
         "removebg": {
             "REMOVEBG_DESC": "Borra el fondo de la foto.",
-            "NEED_PHOTO": "*¡Dame una foto!*",
-            "NO_API_KEY": "*¡No tienes clave API!*\nPuede obtenerlo de remove.bg.",
-            "RBGING": "```Se está eliminando el fondo :D...```"
+            "NEED_PHOTO": "*¡Responde una foto!*",
+            "NO_API_KEY": "*¡No tienes clave API!*\nPuedes obtenerlo de remove.bg.",
+            "RBGING": "```El fondo se está eliminando :D\n\nEspere por favor...```"
         },
         "scrapers": {
             "TRANSLATE_DESC": "Se traduce con Google Translate. Debes responder a un mensaje.",
@@ -212,7 +212,8 @@
             "UPDATING": "_La actualización está en curso..._",
             "INVALID_HEROKU": "*❌ ¡Tu información de Heroku es incorrecta!*",
             "UPDATED": "*✅ ¡La actualización fue exitosa!*",
-            "UPDATED_LOCAL": "*✅ ¡La actualización fue exitosa!*\n_Para guardar los cambios deben reiniciarse._"
+            "UPDATED_LOCAL": "*✅ ¡La actualización fue exitosa!*",
+            "AFTER_UPDATE": "*¡Reinicio de WhatsAsena*"
         },
         "weather": {
             "WEATHER_DESC": "Trae el clima.",
@@ -359,7 +360,11 @@
         },
         "ttp": {
             "TTP_DESC": "Convierte texto en pintura simple.",
-            "NEED_WORD": "*¡Debes ingresar palabras!*"
+            "NEED_WORD": "*¡Debes ingresar palabras!*",
+            "ANIME_DESC": "Escribe el texto dentro de la pancarta sostenida por la chica anime.",
+            "TRUMP_DESC": "Convierte el texto al tweet de Trump.",
+            "CHANGE_DESC": "Convierte el artículo en un póster de change my mind.",
+            "ATTP_DESC": "Convierte el texto en sticker de colores"
         },
         "wallpaper": {
             "WP": "Envía fondos de pantalla de alta resolución diferentes."
@@ -367,6 +372,38 @@
         "webss": {
             "SS_DESC": "Toma una captura de pantalla de la página en el enlace dado.",
             "LİNK": "¡Debes ingresar cualquier enlace!"
+        },
+        "voicy": {
+            "NEED_REPLY": "```¡Responda al mensaje de un usuario```",
+            "ONLY_AUDIO":"```Solo se admiten archivos de audio.```",
+            "USAGE": "Traduce las oraciones de la voz en texto..",
+            "TEXT": "*¡Oye ¡Escuché estos en voz:*\n\n"
+        },
+        "notes": {
+            "NOTES_USAGE": "Muestra todas sus notas existentes.",
+            "NO_SAVED": "No has encontrado ninguna nota grabada.",
+            "SAVED": "Aquí están las notas que grabó: ",
+            "SAVE_USAGE": "Registra el mensaje al que responde o la nota oficial.",
+            "REPLY": "Por favor cite un mensaje o usar como .save <yournote>",
+            "SUCCESSFULLY_ADDED": "Tu nota ha sido guardada con éxito, puede acceder a sus notas escribiendo .notes",
+            "UNSUCCESSFUL": "Encontramos un error al guardar tu nota, ınténtalo de nuevo. Si el problema persiste, comuníquese con los desarrolladores de WhatsAsena.",
+            "DELETE_USAGE": "Elimina *todas* las notas que ha guardado.",
+            "SUCCESSFULLY_DELETED": "Todas tus notas se han eliminado correctamente."
+        },
+        "instagram": {
+            "NEED_WORD": "*Escribe cualquier nombre de usuario de Instagram.*",
+            "USAGE": ".insta <nombre de usuario>",
+            "DESC": "Acceso a la información del usuario de Instagram.",
+            "LOADING": "Cargando perfil de usuario.. Espere por favor.",
+            "USERNAME": "Nombre de usuario",
+            "NAME": "Nombre",
+            "BIO": "Biografía",
+            "FOLLOWERS": "Seguidor",
+            "FOLLOWS": "Seguimiento",
+            "ACCOUNT": "Privacidad de la cuenta",
+            "PUBLIC": "Abierto a todos",
+            "HIDDEN": "Oculto",
+            "NOT_FOUND": "Usuario no encontrado: "
         }
     }
 }

@@ -211,7 +211,8 @@
             "UPDATING": "_Güncelleme yapılıyor..._",
             "INVALID_HEROKU": "*❌ Heroku bilgileriniz yanlış!*",
             "UPDATED": "*✅ Güncelleme başarılı oldu!*",
-            "UPDATED_LOCAL": "*✅ Güncelleme başarılı oldu!*"
+            "UPDATED_LOCAL": "*✅ Güncelleme başarılı oldu!*",
+            "AFTER_UPDATE": "*💬 WhatsAsena Yeniden Başlatılıyor*"
         },
         "weather": {
             "WEATHER_DESC": "Hava durumu getirir.\n⌨️ Örnek: .weather bakü",
@@ -358,7 +359,11 @@
         },
         "ttp": {
             "TTP_DESC": "Yazıyı sade resme dönüştürür.",
-            "NEED_WORD": "*Kelime Girmelisin!*"
+            "ATTP_DESC": "Yazıyı renkli stickera dönüştürür.",
+            "NEED_WORD": "*Kelime Girmelisin!*",
+            "ANIME_DESC": "Yazıyı anime kızının tuttuğu pankartın içine yazar.",
+            "TRUMP_DESC": "Yazıyı trump’ın tweetine çevirir.",
+            "CHANGE_DESC": "Yazıyı change my mind posterine çevirir."
         },
         "wallpaper": {
             "WP": "Birbirinden farklı, yüksek çözünürlüklü duvar kağıdı gönderir."
@@ -366,6 +371,44 @@
         "webss": {
             "SS_DESC": "Verilen linkteki sayfadan ekran görüntüsü alır.",
             "LİNK": "Herhangi bir link girmelisin!"
+        },
+        "voicy": {
+            "NEED_REPLY": "```Lütfen bir kullanıcının mesajına yanıt verin!```",
+            "ONLY_AUDIO":"```Sadece ses dosyaları desteklenir.```",
+            "USAGE": "Sesteki cümleleri yazıya çevirir.",
+            "TEXT": "*Hey! Seste bunları duydum!:*\n\n"
+        },
+        "aiscanner": {
+            "NOT_FOUND": "Aradığınız komuta benzer başka bir komut bulamadık..",
+            "FOUND": "*Aradığınız komut bulunamadı, benzeyen komutlar:* \n 🔎 ```",
+            "SEARCHING": "🔎 Komut bulunamadı.. Benzer komutlar aranıyor..",
+            "NEW_UPDATE": "Bot için yeni güncelleme mevcut!"
+        },
+        "notes": {
+            "NOTES_USAGE": "Varolan tüm notlarınızı gösterir.",
+            "NO_SAVED": "Kaydedilmiş herhangi bir notunuz bulunmadı.",
+            "SAVED": "İşte kaydettiğiniz notlarınız: ",
+            "SAVE_USAGE": "Yanıtladığınız mesajı yada resmi nota kaydeder.",
+            "REPLY": "Lütfen bir mesaj alıntılayın veya .save <notunuz> şeklinde kullanın.",
+            "SUCCESSFULLY_ADDED": "Notunuz başarılı bir şekilde kaydedildi, .notes yazarak notlarınıza ulaşabilirsiniz",
+            "UNSUCCESSFUL": "Notunuzu kaydederken bir hatayla karşılaştık, lütfen tekrar deneyin. Eğer sorun devam ediyorsa lütfen WhatsAsena geliştiricileriyle iletişime geçin.",
+            "DELETE_USAGE": "Kaydettiğiniz *tüm* notlarınızı siler.",
+            "SUCCESSFULLY_DELETED": "Tüm notlarınız başarılı bir şekilde silindi."
+        },
+        "instagram": {
+            "NEED_WORD": "*Herhangi bir instagram kullanıcı adını yazın.*",
+            "USAGE": ".insta <kullanıcıAdı>",
+            "DESC": "İnstagram kullanıcı bilgilerine ulaşır.",
+            "LOADING": "Kullanıcı profili yükleniyor.. lütfen bekleyiniz.",
+            "USERNAME": "Kullanıcı adı",
+            "NAME": "İsim",
+            "BIO": "Biyografi",
+            "FOLLOWERS": "Takipçi",
+            "FOLLOWS": "Takip",
+            "ACCOUNT": "Hesap gizliliği",
+            "PUBLIC": "Herkese açık",
+            "HIDDEN": "Gizli",
+            "NOT_FOUND": "Kullanıcı bulunmadı: "
         }
     }
 }

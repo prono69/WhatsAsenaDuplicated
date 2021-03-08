@@ -212,7 +212,8 @@
             "UPDATING": "_Memperbarui..._", 
             "INVALID_HEROKU": "*❌ Informasi Heroku Anda salah!*",
             "UPDATED": "*✅ Pembaruan berhasil!*",
-            "UPDATED_LOCAL": "*✅ Pembaruan berhasil! *\n_Anda harus memulai ulang untuk perubahan._"
+            "UPDATED_LOCAL": "*✅ Pembaruan berhasil! *\n_Anda harus memulai ulang untuk perubahan._",
+            "AFTER_UPDATE": "*💬 Memulai Ulang WhatsAsena!*"
         },
         "weather": {
             "WEATHER_DESC": "Menunjukkan cuaca.",
@@ -359,7 +360,11 @@
         },
         "ttp": {
             "TTP_DESC": "Mengonversi teks menjadi lukisan biasa.",
-            "NEED_WORD": "*Anda harus memasukkan kata-kata!*"
+            "NEED_WORD": "*Anda harus memasukkan kata-kata!*",
+            "ANIME_DESC": "Dia menulis teks di dalam spanduk yang dipegang oleh gadis anime itu.",
+            "TRUMP_DESC": "Mengubah teks menjadi tweet Trump.",
+            "CHANGE_DESC": "Mengubah artikel menjadi poster change my mind.",
+            "ATTP_DESC": "Mengubah teks menjadi stiker berwarna"
         },
         "wallpaper": {
             "WP": "Mengirimkan wallpaper resolusi tinggi yang berbeda."
@@ -367,6 +372,38 @@
         "webss": {
             "SS_DESC": "Mengambil screenshot dari halaman di link yang diberikan.",
             "LİNK": "Anda harus memasukkan tautan apa pun!"
+        },
+        "voicy": {
+            "NEED_REPLY": "```Harap balas pesan pengguna!```",
+            "ONLY_AUDIO":"```Hanya file audio yang didukung.```",
+            "USAGE": "Menerjemahkan kalimat dalam suara menjadi teks.",
+            "TEXT": "*Hei! Saya mendengar ini dengan suara!:*\n\n"
+        },
+        "notes": {
+            "NOTES_USAGE": "Menampilkan semua catatan Anda yang ada.",
+            "NO_SAVED": "Anda belum menemukan catatan yang direkam.",
+            "SAVED": "Ini catatan yang Anda rekam: ",
+            "SAVE_USAGE": "Rekam pesan yang Anda balas atau catatan resmi.",
+            "REPLY": "Silakan mengutip pesan atau Gunakan sebagai .save <yournote>",
+            "SUCCESSFULLY_ADDED": "Catatan Anda berhasil disimpan, anda dapat mengakses catatan Anda dengan mengetik .notes",
+            "UNSUCCESSFUL": "Kami mengalami kesalahan saat menyimpan catatan Anda, silahkan coba lagi. Jika masalah berlanjut, silakan hubungi pengembang WhatsAsena.",
+            "DELETE_USAGE": "Menghapus *semua* catatan yang telah Anda simpan.",
+            "SUCCESSFULLY_DELETED": "Semua catatan Anda telah berhasil dihapus."
+        },
+        "instagram": {
+            "NEED_WORD": "*Ketik nama pengguna instagram apa saja.*",
+            "USAGE": ".insta <username>",
+            "DESC": "Instagram menjangkau informasi pengguna.",
+            "LOADING": "Memuat profil pengguna.. Mohon tunggu.",
+            "USERNAME": "Nama pengguna",
+            "NAME": "Nama",
+            "BIO": "Biografi",
+            "FOLLOWERS": "Pengikut",
+            "FOLLOWS": "Pelacakan",
+            "ACCOUNT": "Privasi akun",
+            "PUBLIC": "Terbuka untuk semua orang",
+            "HIDDEN": "Tersembunyi",
+            "NOT_FOUND": "Pengguna tidak ditemukan: "
         }
     }
 }
