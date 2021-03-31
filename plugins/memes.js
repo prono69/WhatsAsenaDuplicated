@@ -74,8 +74,8 @@ else if (Config.WORKTYPE == 'public') {
         var topText, bottomText;
         if (match[1].includes(';')) {
             var split = match[1].split(';');
-            topText = split[1];
-            bottomText = split[0];
+            topText = split[0];
+            bottomText = split[1];
         }
 	    else {
             topText = match[1];
